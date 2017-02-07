@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:title="menu"
+        android:id="@+id/menus"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_threedots"
+        >
+        <group>
+            <item
+                android:title="Edit"
+                android:id="@+id/editMenu"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@android:drawable/ic_menu_edit"
+                />
+            <item
+                android:title="Delete"
+                android:id="@+id/deleteMenu"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@android:drawable/ic_menu_delete"
+                />
+        </group>
+
+
+    </item>
+
+</menu>
